@@ -1,8 +1,8 @@
-# .Rox Parser
+# Rox Parser
 
 A tool to parse Ivanti .rox files and produce request offering and workflow visualisations.
 
-The tool is in an early stage and has many known shortcomings. Namely:
+The tool is in an early stage and has known shortcomings. The two most significant at this time are:
 
 1. It is currently biased to the developer's use case and isn't customisable. For example, the tool does not include field translations in the parameter table output because it is irrelevant in the developer's environment.
 
