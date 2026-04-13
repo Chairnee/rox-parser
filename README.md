@@ -4,7 +4,7 @@ A tool to parse Ivanti .rox files and produce request offering and workflow visu
 
 1. [General usage](#general-usage)
 2. [Graphviz optional external dependency](#optional-external-dependency-notice)
-3. [Examples](#examples)
+3. [Examples and images](#examples)
 4. [Known shortcomings](#known-shortcomings)
 
 ## General Usage
