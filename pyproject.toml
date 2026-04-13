@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=80"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rox-parser"
+version = "0.1.0"
+description = "Utilities for parsing and inspecting Ivanti .rox files."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+keywords = ["rox", "xml", "workflow", "graphviz", "reporting"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.11",
+  "Operating System :: OS Independent",
+  "Topic :: Utilities",
+]
+
+[project.scripts]
+rox-parser = "rox_parser.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+ignore = ["E501"]
