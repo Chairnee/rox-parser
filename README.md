@@ -37,7 +37,7 @@ Generating DOT graph svgs for parameters requires the Graphviz binary to be inst
 
 2. Below is a snippet of a request offering parameter report. Rox Parser parses all the data in the request offering .rox file and tabulates it into a HTML report. The report shows the ID, display name, control type, category if it was beneath one in the request offering, parent fields, child fields and miscellaneous data in the expressions column. The parent and child fields can be hovered to inspect why the relationship is being displayed and clicked on to jump to the parent or child in question in the table. The table can be easily searched using the search bar at the top of the report.
 
-![An example of a parameter report.](#docs/exampleTable.png)
+![An example of a parameter report.](docs/exampleTable.png)
 
 3. Below is a snippet of a workflow report. Rox Parser parses all the data in the request offering .rox file and generates a visualisation of it. The visualisation attempts to roughly reproduce the form it would take in Ivanti's workflow editor. Each block is clickable and draggable. Clicking on a block shows will highlight it and any incoming or outgoing blocks. The click will also fill the inspector panel on the right hand side with any metadata that could be parsed.
 
