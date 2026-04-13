@@ -39,7 +39,7 @@ Generating DOT graph svgs for parameters requires the Graphviz binary to be inst
 
 ![An example of a parameter report.](docs/exampleTable.png)
 
-3. Below is a snippet of a workflow report. Rox Parser parses all the data in the request offering .rox file and generates a visualisation of it. The visualisation attempts to roughly reproduce the form it would take in Ivanti's workflow editor. Each block is clickable and draggable. Clicking on a block shows will highlight it and any incoming or outgoing blocks. The click will also fill the inspector panel on the right hand side with any metadata that could be parsed.
+3. Below is a snippet of a workflow report. Rox Parser parses all the data in the request offering .rox file and generates a visualisation of it. The visualisation attempts to roughly reproduce the form it would take in Ivanti's workflow editor. Each block is clickable and draggable. Clicking on a block will highlight it and any incoming or outgoing blocks. The click will also fill the inspector panel on the right hand side with any metadata that was parsed.
 
 ![An example of a workflow report.](docs/exampleWorkflow.png)
 
